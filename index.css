@@ -312,7 +312,55 @@ a {
 .phone-num {
     color: var(--primary);
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.profile-email {
+    display: block;
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    text-decoration: underline;
+    text-decoration-color: rgba(255, 255, 255, 0.3);
+    text-underline-offset: 4px;
+}
+
+.profile-email:hover {
+    color: var(--primary);
+    text-decoration-color: var(--primary);
+}
+
+.profile-location {
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 0.95rem;
+    margin-bottom: 25px;
+}
+
+.profile-socials {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.profile-socials a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 50%;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: var(--transition);
+}
+
+.profile-socials a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: translateY(-3px);
 }
 
 /* Right Text Content */
